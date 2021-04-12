@@ -1,0 +1,237 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local necowo = Instance.new("ScreenGui")
+local DragLabel = Instance.new("ImageLabel")
+local ScriptNetBox = Instance.new("Frame")
+local TabPL = Instance.new("Frame")
+local PLNames = Instance.new("TextLabel")
+local PLNameAndVere = Instance.new("TextLabel")
+local PLNames_2 = Instance.new("TextLabel")
+local PLNames_3 = Instance.new("TextLabel")
+local PlaceHolderDevider = Instance.new("Frame")
+local PlaceHolderDevider_2 = Instance.new("Frame")
+local CloseButton = Instance.new("TextButton")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local PlaceHolderDevider_3 = Instance.new("Frame")
+local PlaceHolderDevider_4 = Instance.new("Frame")
+local ExtraButton = Instance.new("TextButton")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+
+--Properties:
+
+necowo.Name = "necowo"
+necowo.Parent = game.CoreGui
+
+DragLabel.Name = "DragLabel"
+DragLabel.Parent = necowo
+DragLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DragLabel.BorderColor3 = Color3.fromRGB(20, 20, 20)
+DragLabel.BorderSizePixel = 2
+DragLabel.Position = UDim2.new(0.373486638, 0, 0.345370352, 0)
+DragLabel.Size = UDim2.new(0.2522147, 0, 0.307407409, 0)
+DragLabel.Image = "rbxassetid://6652048002"
+DragLabel.ImageColor3 = Color3.fromRGB(207, 207, 207)
+
+ScriptNetBox.Name = "ScriptNetBox"
+ScriptNetBox.Parent = DragLabel
+ScriptNetBox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ScriptNetBox.BorderColor3 = Color3.fromRGB(40, 40, 40)
+ScriptNetBox.BorderSizePixel = 2
+ScriptNetBox.Position = UDim2.new(0.0185950417, 0, 0.268072277, 0)
+ScriptNetBox.Size = UDim2.new(0.958677709, 0, 0.701807201, 0)
+ScriptNetBox.ZIndex = 2
+
+TabPL.Name = "TabPL"
+TabPL.Parent = DragLabel
+TabPL.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TabPL.BackgroundTransparency = 1.000
+TabPL.BorderColor3 = Color3.fromRGB(40, 40, 40)
+TabPL.BorderSizePixel = 2
+TabPL.Position = UDim2.new(0.0185950417, 0, 0.1746988, 0)
+TabPL.Size = UDim2.new(0.239669427, 0, 0.0933734924, 0)
+TabPL.ZIndex = 2
+
+PLNames.Name = "PLNames"
+PLNames.Parent = TabPL
+PLNames.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PLNames.BackgroundTransparency = 1.000
+PLNames.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PLNames.Position = UDim2.new(0.2067893, 0, 1.81166804, 0)
+PLNames.Size = UDim2.new(3.60351968, 0, 2.63613629, 0)
+PLNames.ZIndex = 4
+PLNames.Font = Enum.Font.Code
+PLNames.Text = "I am aware of the nico situation and when he comes online I will talk to him. Please, I am not involved with nico anymore please do not come at me for his actions."
+PLNames.TextColor3 = Color3.fromRGB(255, 255, 255)
+PLNames.TextScaled = true
+PLNames.TextSize = 13.000
+PLNames.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+PLNames.TextWrapped = true
+PLNames.TextXAlignment = Enum.TextXAlignment.Left
+
+PLNameAndVere.Name = "PLNameAndVere"
+PLNameAndVere.Parent = TabPL
+PLNameAndVere.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PLNameAndVere.BackgroundTransparency = 1.000
+PLNameAndVere.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PLNameAndVere.Position = UDim2.new(0, 0, -1.51091146, 0)
+PLNameAndVere.Size = UDim2.new(2.20672655, 0, 1.15466213, 0)
+PLNameAndVere.ZIndex = 4
+PLNameAndVere.Font = Enum.Font.Code
+PLNameAndVere.Text = "not involved"
+PLNameAndVere.TextColor3 = Color3.fromRGB(255, 255, 255)
+PLNameAndVere.TextScaled = true
+PLNameAndVere.TextSize = 13.000
+PLNameAndVere.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+PLNameAndVere.TextWrapped = true
+PLNameAndVere.TextXAlignment = Enum.TextXAlignment.Left
+
+PLNames_2.Name = "PLNames"
+PLNames_2.Parent = TabPL
+PLNames_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PLNames_2.BackgroundTransparency = 1.000
+PLNames_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PLNames_2.Position = UDim2.new(0.20678921, 0, 4.85119438, 0)
+PLNames_2.Size = UDim2.new(3.26583719, 0, 0.693383038, 0)
+PLNames_2.ZIndex = 4
+PLNames_2.Font = Enum.Font.Code
+PLNames_2.Text = "This project is over. Thanks, Spec"
+PLNames_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PLNames_2.TextScaled = true
+PLNames_2.TextSize = 13.000
+PLNames_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+PLNames_2.TextWrapped = true
+PLNames_2.TextXAlignment = Enum.TextXAlignment.Left
+
+PLNames_3.Name = "PLNames"
+PLNames_3.Parent = TabPL
+PLNames_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PLNames_3.BackgroundTransparency = 1.000
+PLNames_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PLNames_3.Position = UDim2.new(0.206789196, 0, 6.033957, 0)
+PLNames_3.Size = UDim2.new(2.92100978, 0, 1.55513418, 0)
+PLNames_3.ZIndex = 4
+PLNames_3.Font = Enum.Font.Code
+PLNames_3.Text = "join the kitty review discord server to be happy https://discord.gg/nnyhhXFhkC"
+PLNames_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+PLNames_3.TextScaled = true
+PLNames_3.TextSize = 13.000
+PLNames_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+PLNames_3.TextWrapped = true
+PLNames_3.TextXAlignment = Enum.TextXAlignment.Left
+
+PlaceHolderDevider.Name = "PlaceHolderDevider"
+PlaceHolderDevider.Parent = DragLabel
+PlaceHolderDevider.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+PlaceHolderDevider.BorderColor3 = Color3.fromRGB(40, 40, 40)
+PlaceHolderDevider.BorderSizePixel = 0
+PlaceHolderDevider.Position = UDim2.new(0.0185950417, 0, 0.26000002, 0)
+PlaceHolderDevider.Size = UDim2.new(0.239999995, 0, 0.0180722885, 0)
+PlaceHolderDevider.ZIndex = 4
+
+PlaceHolderDevider_2.Name = "PlaceHolderDevider"
+PlaceHolderDevider_2.Parent = DragLabel
+PlaceHolderDevider_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+PlaceHolderDevider_2.BorderColor3 = Color3.fromRGB(40, 40, 40)
+PlaceHolderDevider_2.BorderSizePixel = 0
+PlaceHolderDevider_2.Position = UDim2.new(0.0227272734, 0, 0.268072277, 0)
+PlaceHolderDevider_2.Size = UDim2.new(0.254132271, 0, 0.0100000221, 0)
+PlaceHolderDevider_2.ZIndex = 4
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = DragLabel
+CloseButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+CloseButton.BorderColor3 = Color3.fromRGB(40, 40, 40)
+CloseButton.BorderSizePixel = 2
+CloseButton.Position = UDim2.new(0.915289283, 0, 0.177710846, 0)
+CloseButton.Size = UDim2.new(0.0619834699, 0, 0.0903614461, 0)
+CloseButton.ZIndex = 2
+CloseButton.Font = Enum.Font.Code
+CloseButton.Text = "x"
+CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.TextScaled = true
+CloseButton.TextSize = 20.000
+CloseButton.TextWrapped = true
+
+UITextSizeConstraint.Parent = CloseButton
+UITextSizeConstraint.MaxTextSize = 20
+
+PlaceHolderDevider_3.Name = "PlaceHolderDevider"
+PlaceHolderDevider_3.Parent = DragLabel
+PlaceHolderDevider_3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+PlaceHolderDevider_3.BorderColor3 = Color3.fromRGB(40, 40, 40)
+PlaceHolderDevider_3.BorderSizePixel = 0
+PlaceHolderDevider_3.Position = UDim2.new(0.914999962, 0, 0.26000002, 0)
+PlaceHolderDevider_3.Size = UDim2.new(0.0619834699, 0, 0.0180722866, 0)
+PlaceHolderDevider_3.ZIndex = 4
+
+PlaceHolderDevider_4.Name = "PlaceHolderDevider"
+PlaceHolderDevider_4.Parent = DragLabel
+PlaceHolderDevider_4.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+PlaceHolderDevider_4.BorderColor3 = Color3.fromRGB(40, 40, 40)
+PlaceHolderDevider_4.BorderSizePixel = 0
+PlaceHolderDevider_4.Position = UDim2.new(0.894628108, 0, 0.268072277, 0)
+PlaceHolderDevider_4.Size = UDim2.new(0.0826446265, 0, 0.00999999978, 0)
+PlaceHolderDevider_4.ZIndex = 4
+
+ExtraButton.Name = "ExtraButton"
+ExtraButton.Parent = DragLabel
+ExtraButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ExtraButton.BorderColor3 = Color3.fromRGB(40, 40, 40)
+ExtraButton.BorderSizePixel = 2
+ExtraButton.Position = UDim2.new(0.0185950417, 0, 0.175131232, 0)
+ExtraButton.Size = UDim2.new(0.24000001, 0, 0.0848687962, 0)
+ExtraButton.ZIndex = 2
+ExtraButton.Font = Enum.Font.Code
+ExtraButton.Text = "read"
+ExtraButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExtraButton.TextScaled = true
+ExtraButton.TextSize = 16.000
+ExtraButton.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = ExtraButton
+UITextSizeConstraint_2.MaxTextSize = 16
+
+local UIS = game:GetService("UserInputService")
+function dragify(Frame)
+	dragToggle = nil
+	local dragSpeed = 0.125
+	dragInput = nil
+	dragStart = nil
+	local dragPos = nil
+	function updateInput(input)
+		local Delta = input.Position - dragStart
+		local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+		game:GetService("TweenService"):Create(Frame, TweenInfo.new(dragSpeed), {Position = Position}):Play()
+	end
+	Frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+			dragToggle = true
+			dragStart = input.Position
+			startPos = Frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	Frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if input == dragInput and dragToggle then
+			updateInput(input)
+		end
+	end)
+end
+
+dragify(DragLabel)
+
+CloseButton.MouseButton1Click:Connect(function()
+	necowo:Destroy()
+end)
